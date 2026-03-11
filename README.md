@@ -27,3 +27,22 @@ docker run -p 5000:5000 gym-app
 GitHub Actions automatically runs tests and builds Docker image on every push.
 
 Jenkins pulls the project from GitHub and performs build verification.
+
+## Project Overview
+
+This project demonstrates a DevOps CI/CD pipeline using Flask.
+
+Technologies Used:
+- Python Flask
+- GitHub
+- Docker
+- GitHub Actions
+- Jenkins
+
+## CI/CD Pipeline
+
+On every push to GitHub:
+1. Code is checked out
+2. Dependencies installed
+3. Tests executed using Pytest
+4. Docker image built
